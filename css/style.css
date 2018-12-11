@@ -62,7 +62,13 @@ body{
 }
 .mainbody{
 	font-family: 'Dosis';
-	padding-top: 900px;
+	margin-right: 200px;
+	margin-left: 200px;
+	padding-top: 80px;
+	padding-bottom: 400px;
+	font-size: 18px;
+	text-align: center;
+
 }
 .signinhead{
 	background: #417580;
@@ -196,4 +202,25 @@ body{
 	margin: auto;
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
+.calendarbody{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+#img_rogersfamily1{
+	width: 324px;
+	height: 243px;
+	padding-right: 10px;
+	float: left;
+}
+#img_rogersfamily2{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-align: center;
+	width: 646px;
+	height: 727px;
+	margin: auto;
+}
+.picture_align{
+	text-align: center;
 }
