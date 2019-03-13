@@ -224,3 +224,15 @@ body{
 .picture_align{
 	text-align: center;
 }
+.eaglebody{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'Didact Gothic';
+	font-size: 25px;
+}
+#pamphletstyle{
+	width: 1000px;
+	height: 2500px;
+}
