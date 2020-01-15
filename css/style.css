@@ -66,3 +66,99 @@ body {
 	font-size: 35px;
 	font-family: 'Baskervville', serif;
 }
+
+.footer{
+	padding-top: 15px;
+	min-height: 50px;
+	padding-left: 20px;
+	background-color: #333333;
+	padding-bottom: 10px;
+}
+
+.footer p{
+	font-family: 'Abel', sans-serif;
+	font-size: 14px;
+}
+
+.container{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.containerText{
+	border-radius: 25px;
+	position: absolute;
+  	top: 50px;
+  	left: 50px;
+  	width: 25%;
+  	height: 50%;
+  	background: rgba(82, 82, 82, 0.7);
+  	text-align: middle;
+  	min-width: 300px;
+}
+
+#ctHeader{
+	padding-top: 10px;
+	font-size: 23px;
+	text-decoration: underline;
+}
+
+.ctsHeader{
+	font-size: 16px;
+	padding-bottom: 30px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.navcodeButton{
+	border: 0px;
+	padding: 15px 32px;
+	text-align: center;
+	background-color: #577284;
+	font-size: 14px;
+	color: white;
+}
+
+.navcodeBox{
+	padding-bottom: 30px;
+}
+.navcodeButton:hover{
+	background-color: #b8b8b8;
+  	color: black;
+  	cursor: pointer;
+}
+
+.containerText2{
+	border-radius: 25px;
+	position: absolute;
+  	top: 50px;
+  	left: 50px;
+  	width: 25%;
+  	height: 70%;
+  	background: rgba(82, 82, 82, 0.8);
+  	text-align: middle;
+  	min-width: 300px;
+}
+
+.signintext{
+	font-size: 24px;
+}
+
+.signinstext{
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 15px;
+	margin-bottom: 100px;
+}
+
+#pword{
+	margin-bottom: 15px;
+}
+
+.signintext3{
+	position: absolute;
+	padding-top: 30px;
+	padding-right: 10px;
+	padding-left: 10px;
+}

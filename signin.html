@@ -1,9 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+	<script src="main.js"></script>
+	<title>The Rogers Family</title>
 </head>
 <body>
-
+<section class="mainHead">
+	<p>The Rogers Family</p>
+</section>
+<div class="topnav" id="myTopnav">
+  <a href="javascript:homeWarp()"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+  <a href="javascript:infoWarp()">Information</a>
+  <a href="javascript:codeWarp()"><i class="fa fa-code" aria-hidden="true"></i> Code Creations</a>
+  <a href="javascript:signWarp()" class="active"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign In</a>
+  <a href="javascript:void(0);" class="icon" onclick="displayHB()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div class="container">
+	<picture>
+  		<source media="(min-width: 1000px)" srcset="signland.jpg">
+  		<source media="(min-width: 800px)" srcset="signland2.jpg">
+  		<source media="(min-width: 0px)" srcset="signland3.jpg">
+  		<img src="landscape.jpg" style="width:auto; height:100%; width:100%; object-fit: cover">
+	</picture>
+	<div class="containerText2">
+		<p class="signintext">Sign In</p>
+		<p class="signinstext">Please enter the site password to log into the secure page.</p>
+		<form class="passwordfield" action="">
+			<input type="password" id="pword">
+		</form>
+		<input type="button" class="navcodeButton" onclick="isValid()" value="Sign In">
+		<p class="signintext3"><i>By clicking "Sign In" you agree to the <u>Terms of Service</u></i></p>
+	</div>
+</div>
+<section class="footer">
+	<p>The Rogers Family Website 2020</p>
+	<p>Edition Gamma</p>
+	<p>Created and maintained by William Rogers</p>
+</section>
 </body>
 </html>
