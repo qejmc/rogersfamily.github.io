@@ -1,9 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Baskervville&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+	<script src="../main.js"></script>
+	<title>The Rogers Family</title>
 </head>
 <body>
-
+<section class="mainHead">
+	<p>The Rogers Family</p>
+</section>
+<div class="topnav" id="myTopnav">
+  <a href="javascript:homeWarp1()"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+  <a href="javascript:infoWarp1()">Information</a>
+  <a href="javascript:codeWarp1()" class="active"><i class="fa fa-code" aria-hidden="true"></i> Code Creations</a>
+  <a href="javascript:signWarp1()"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign In</a>
+  <a href="javascript:void(0);" class="icon" onclick="displayHB()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div class="container">
+	<picture>
+  		<source media="(min-width: 1000px)" srcset="../oldpaper.jpg">
+  		<source media="(min-width: 800px)" srcset="../oldpaper2.jpg">
+  		<source media="(min-width: 0px)" srcset="../oldpaper3.jpg">
+  		<img src="landscape.jpg" style="width:auto; height:100%; width:100%; object-fit: cover">
+	</picture>
+	<div class="containerText3">
+		<p class="signintext">The Hamlet Video Game</p>
+		<div class="downloadContainer">
+			<a href="https://github.com/qejmc/hamlet" class="downloadBox">Download<i class="fa fa-download" id="downloadButton" aria-hidden="true"></i></a>
+		</div>
+	</div>
+</div>
+<section class="footer">
+	<p>The Rogers Family Website 2020</p>
+	<p>Edition Gamma</p>
+	<p>Created and maintained by William Rogers</p>
+</section>
 </body>
 </html>

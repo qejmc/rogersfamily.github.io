@@ -24,6 +24,22 @@ function signWarp() {
 	window.open('signin.html', '_self');
 }
 
+function homeWarp1() {
+	window.open('../index.html', '_self');
+}
+
+function infoWarp1() {
+	window.open('../information.html', '_self');
+}
+
+function codeWarp1() {
+	window.open('../codecreations.html', '_self');
+}
+
+function signWarp1() {
+	window.open('../signin.html', '_self');
+}
+
 function javaWarp() {
 	window.open('codecreations/java.html', '_self');
 }
